@@ -1,0 +1,32 @@
+{
+  "name": "suggestiv",
+  "version": "1.0.0",
+  "description": "A web app for suggestions",
+  "main": "./dist/index.js",
+  "watch": {
+    "test": "{src,test}/*.js"
+  },
+  "scripts": {
+    "watch": "webpack --watch",
+    "dev": "nodemon ./dist/index.js",
+    "start": "node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Buttershine/suggestiv.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Buttershine/suggestiv/issues"
+  },
+  "homepage": "https://github.com/Buttershine/suggestiv#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
